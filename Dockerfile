@@ -1,4 +1,4 @@
-FROM debian:buster-slim AS common
+FROM debian:bullseye-slim AS common
 RUN apt-get update \
 	&& apt-get install -y --no-install-recommends \
 	python3-virtualenv \
